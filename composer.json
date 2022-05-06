@@ -1,0 +1,28 @@
+{
+    "name": "yng/routing",
+    "description": "A lightweight and fast routing component.",
+    "homepage": "https://www.chinaqe.cn",
+    "authors": [
+        {
+            "name": "yng",
+            "homepage": "https://www.chinaqe.cn"
+        }
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yng\\Routing\\": "src/"
+        }
+    },
+    "extra": {
+        "yng": {
+            "config": {
+                "routing": "publish/route.php"
+            }
+        }
+    }
+}
